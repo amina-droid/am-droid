@@ -8,5 +8,9 @@
 }
 
 body {
-    background-color: black;
+    background: url(images/bg.png) no-repeat;
+}
+
+.row{
+    display: flex;
 }
