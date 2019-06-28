@@ -1,0 +1,12 @@
+.card {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.102);
+    min-width: 304px;
+    min-height: 200px;
+}
+
+body {
+    background-color: black;
+}
