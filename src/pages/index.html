@@ -5,15 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap-flex.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="row">
-        <div class="col-xs-4 card">.col-xs-2</div>
-        <div class="col-xs-4 card">.col-xs-4</div>
-        <div class="col-xs-4 card">.col-xs-6</div>
-     </div>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="a-card a-card_recipe">
+                    <div class="header header_bold">
+                        <div class="header__title">
+                            <p class="a-card__title a-card__title_upercase">Home-made</p>
+                            <p class="a-card__title">Apple pie</p>
+                        </div>
+                    </div>
+                    <div class="main">
+                        <ul class="main__menu">
+                            <li class="settings">Settings</li>
+                            <li class="location">Location</li>
+                            <li class="favourite">Favourite</li>   
+                            <li class="food">Food</li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="a-card a-card_login">
+                    <div class="header header_thin">
+                        <div class="header__title a-card__title_upercase">
+                            Login
+                        </div>
+                    </div>
+                    <div class="main">
+                        <form class="main__form" name="info_log-pass">
+                            <label for="e-m">Email</label>
+                            <input class="form__input form__input_email" id="e-m" type="email" name="email">
+                            <br>
+                            <label for="pas">Password</label>
+                            <input class="form__input form__input_pas" id="pas" type="password" name="pass">
+                        </form>   
+                            <div class="main__span-line">     
+                                <span>Or</span>
+                            </div>
+                    </div>
+                    <div class="footer">
+                        <div class="footer__social-media">
+                            <div class="tw"></div>
+                            <div class="goog"></div>
+                            <div class="fb"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="a-card a-card_profile">
+                    <div class="header header_thin">
+                        <div class="header__title a-card__title_upercase">
+                                Profile
+                        </div>
+                    </div>
+                    <div class="main">
+                        <div class="main__photo">
+                            <div class="p-profile"></div>
+                            <div class="info">
+                                <div>John Doe</div>
+                                <div><img src="..//images/loc.png"> New York, NY</div>
+                            </div>
+                        </div>
+                        <div class="main__follows">
+                            <div class="follows__block follows__block_following">
+                                <div class="_title">Following</div>
+                                <div class="_amount">345</div>
+                            </div>
+                            <div class="follows__block follows__block_followers">
+                                <div class="_title">Followers</div>
+                                <div class="_amount">498</div>
+                            </div>
+                        </div>
+                        <div class="main__button-follow">
+                            <input type="submit" name="follow" value="FOLLOW">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
